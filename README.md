@@ -1,7 +1,16 @@
-# Awesome-Reasoning-Models
-## Reasoning Models: Evolution, Variants, Types, & Applications
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Reasoning Models Banner" />
+</div>
 
-Reasoning Models represent a fundamental paradigm shift in Large Language Models (LLMs), moving past rapid next-token intuition toward deliberative, systemic thinking. While traditional language models excel at pattern matching and fluid surface-level generation (System 1 thinking), reasoning models natively implement multi-step cognitive structures, self-correction pathways, and search algorithms (System 2 thinking). This architectural shift enables models to systematically break down, verify, and execute highly complex mathematics, software engineering tasks, and long-horizon scientific logic.
+# 🧠 Awesome-Reasoning-Models 🚀
+
+<div align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</div>
+
+## 🌐 Reasoning Models: Evolution, Variants, Types, & Applications
+
+Reasoning Models represent a fundamental paradigm shift in Large Language Models (LLMs), moving past rapid next-token intuition toward deliberative, systemic thinking. 🎯 While traditional language models excel at pattern matching and fluid surface-level generation (System 1 thinking), reasoning models natively implement multi-step cognitive structures, self-correction pathways, and search algorithms (System 2 thinking). 🔍 This architectural shift enables models to systematically break down, verify, and execute highly complex mathematics, software engineering tasks, and long-horizon scientific logic. 💡
 
 ---
 
@@ -55,3 +64,15 @@ These variants dictate how a model explores the multi-step solution space during
 | [**Autonomous Software Engineering & Code Compilation**](docs/autonomous-software-engineering.md) | Solves long-horizon software engineering benchmarks (like SWE-bench). The model reasons through massive, multi-file codebases, mentally executes mock runtime tests, identifies breaking syntax dependencies, and refactors code iteratively before committing changes. | 2023 | [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.22752) |
 | [**Advanced Cryptographic & Mathematical Theorem Proving**](docs/mathematical-theorem-proving.md) | Solves multi-step competitive math Olympiad problems. The model maps abstract properties into symbolic equations, checks for identity rule violations, and pivots to alternative mathematical frameworks if an initial proof vector collapses. | 2022 | [Minerva: Solving Quantitative Reasoning Problems with Language Models](https://arxiv.org/abs/2206.14858) |
 | [**De Novo Bio-Chemical Pathway Synthesis**](docs/bio-chemical-pathway-synthesis.md) | Models complex multi-turn molecular interactions for targeted drug design. Reasoning models step through potential molecular configurations, ensuring chemical stability constraints and toxicity boundaries are rigorously accounted for across the simulated synthesis chain. | 2023 | [ChemCrow: Augmenting large-language models with chemistry tools](https://arxiv.org/abs/2304.05376) |
+
+
+## 🌟 Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Reasoning-Models&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Reasoning-Models&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Reasoning-Models&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Reasoning-Models&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
