@@ -9,8 +9,12 @@ Reasoning Models represent a fundamental paradigm shift in Large Language Models
 
 The architectural progression of reasoning models reflects a shift from external prompting heuristics over standard text bases to natively integrated, reinforcement-learned thinking loops.
 
-[Prompt-Engineered CoT (2022)] -------> [External Agents (ReAct/ToT, 2023)] -------> [Native Inference-Time Compute (o1/DeepSeek-R1, 2024+)](User-Forced Text Verbosity)               (API Loop Latency Bottlenecks)               (Hidden Reinforcement-Learned Thinking)
 
+```mermaid
+flowchart LR
+    A["Prompt-Engineered CoT (2022)<br/>(User-Forced Text Verbosity)"] ---> B["External Agents (ReAct/ToT, 2023)<br/>(API Loop Latency Bottlenecks)"]
+    B ---> C["Native Inference-Time Compute (o1/DeepSeek-R1, 2024+)<br/>(Hidden Reinforcement-Learned Thinking)"]
+```
 
 *   **The Prompt-Engineered CoT Era (~2022–2023)**
     *   *Concept:* Unlocked by manually appending phrases like `"Let's think step-by-step"` to prompts (Chain-of-Thought). The model uses its standard next-token prediction window to lay out intermediary logical milestones textually.
